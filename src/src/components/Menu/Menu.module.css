@@ -1,0 +1,42 @@
+.menu{
+   position: fixed;
+   top: 0; left: 0;
+   width: 100%;
+   max-width: 350px;
+   height: 100%;
+   background: rgba(0,0,0, 0.9);
+   z-index: 98;
+   transform: translateX(-200%);
+   padding: 10px;
+   padding-top: 80px;
+   transition: 0.3s;
+}
+.opened{
+   transform: translateX(0);
+}
+
+.item{
+   display: block;
+   margin-top: 20px;
+   color: #fff;
+   font-family: "Nunito";
+   font-weight: 500;
+   font-size: 25px;
+   letter-spacing: 1px;
+   text-decoration: none;
+   cursor: pointer;
+}
+.item:hover{
+   box-shadow: 0 1px 0 0 #fff;
+}
+.closeMenu{
+   position: fixed;
+   top: 0; left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 97;
+   display: none;
+}
+.showHideMenu{
+   display: block;
+}

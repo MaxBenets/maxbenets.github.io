@@ -1,0 +1,21 @@
+{
+   "technologies": [
+         {"id": 0, "imgSrc": "https://img.icons8.com/color/500/500/html-5.png", "name": "html"},
+         {"id": 1, "imgSrc": "https://img.icons8.com/color/500/500/css3.png", "name": "css"},
+         {"id": 2, "imgSrc": "https://img.icons8.com/color/500/500/sass-avatar.png", "name": "scss"},
+         {"id": 3, "imgSrc": "https://img.icons8.com/fluency/500/500/javascript.png", "name": "javascript"},
+         {"id": 4, "imgSrc": "https://img.icons8.com/office/500/500/react.png", "name": "react"},
+         {"id": 5, "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/311px-Nextjs-logo.svg.png", "name": "next"},
+         {"id": 6, "imgSrc": "https://img.icons8.com/color/500/500/redux.png", "name": "redux"},
+         {"id": 7, "imgSrc": "https://img.icons8.com/color/500/500/response.png", "name": "rest api"},
+         {"id": 8, "imgSrc": "https://img.icons8.com/color/500/500/bootstrap.png", "name": "bootstrap"},
+         {"id": 9, "imgSrc": "https://img.icons8.com/fluency/500/500/visual-studio-code-2019.png", "name": "vs code"}
+     ],
+   "projects": [
+     {"id": 0, "type": "react", "githubLink": "https://github.com/MaxBenets/React-Search-Engine", "imgSrc": "https://i.imgur.com/8lGsC4Y.png", "name": "Quick", "about": "Пошукова система", "url": "https://quicksearchengine.netlify.app/"},
+     {"id": 1, "type": "react","githubLink": "https://github.com/MaxBenets/React-Candy-Store", "imgSrc": "https://i.imgur.com/w405CW1.png", "name": "Candy House", "about": "Інтернет магазин", "url": "https://reactcandyhouse.netlify.app/"},
+     {"id": 2, "type": "react","githubLink": "https://github.com/MaxBenets/React-Shortener", "imgSrc": "https://i.imgur.com/WxYW7Sp.png", "name": "React Shortener", "about": "Скорочувач посилань", "url": "https://reactshortener.netlify.app/"},
+     {"id": 3, "type": "react","githubLink": "https://github.com/MaxBenets/React-translator", "imgSrc": "https://i.imgur.com/TZxm1bo.png", "name": "React Translator", "about": "Перекладач", "url": "https://reacttranslator.netlify.app/"},
+     {"id": 4, "type": "werstka","githubLink": "https://github.com/MaxBenets/capitaltravel", "imgSrc": "https://i.imgur.com/KDrbp2q.png", "name": "Capital Travel", "about": "Турестичне агенство", "url": "https://maxbenets.github.io/capitaltravel/"}
+   ]
+ }

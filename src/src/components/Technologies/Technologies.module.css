@@ -1,0 +1,29 @@
+.skills, .soft-skills{
+   margin-top: 100px;
+}
+.skills .item{
+   background: #343434;
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   border-radius: 10px;
+   margin: 10px;
+}
+.skills .item:hover{
+   background: #272727;
+}
+.skills .item .img{
+   width: 30px;
+   margin-right: 10px;
+}
+.skills .item .name{
+   font-size: 30px;
+   color: #eee;
+   font-family: "Montserrat";
+}
+
+.skills__flex{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}

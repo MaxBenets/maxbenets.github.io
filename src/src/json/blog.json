@@ -1,0 +1,10 @@
+{
+   "posts": [
+      {
+         "id": "0",
+         "date": "25.09.2022",
+         "postName": "Redux чи MobX? Що вибрати і в чому різниця",
+         "post": "<h1>Redux чи MobX? Що вибрати і в чому різниця</h1><p><b>Redux</b> - Бібліотека для побудови state менеджменту. В Redux є store, який можна змінювати з допомогою action-ів. </p><p><b>MobX</b> - Також бібліотека для побудови state менеджменту, але на відміну від redux, в mobx замість об'єктів використовуються класи. Данні в mobx змінюються за допомогою методів классу</p><p>Я вважаю, що mobX набагато легша бібліотека, ніж Redux. Тому що не потрібно створювати ред'юсери, action creator-и... Все в одному классі. Також в mobx-і легко змінюється данні. На відміну від redux, в mobx якщо ви хочете змінити наприклад один об'єкт на інший, то ви просто створюєте метод в якому змінюєте цей об'єкт, а в redux вам потрібно перевіряти тип, якщо тип співпадає, то повератати копію state-у і після цього змінювати необхідний об'єкт</p><p>Ось приклад однакового коду на Redux та Mobx:</p><pre>\nconst SET_NUMBER = 'SET_NUMBER';\n\nconst initial_state = {\n    number: 1;\n}\n\nexport const numberReducer = (state = initial_state, action) => {\n    switch (action.type){\n        case SET_NUMBER:\n            return{\n                ...state,\n                number: action.number;\n            }\n        default:\n            return state;\n        }\n    }\n\nexport const setNumberAC = (number) => {\n    return {\n        type: SET_NUMBER,\n        number\n    }\n}</pre><pre>// mobX\n\nclass number{\n    number = 1;\n\n    constructor(){\n        makeAutoObservable(this);\n    }\n\n    setNumber(number){\n        this.number = number\n    }\n}</pre><p>Але попри все вище сказане, я всеодно більше віддаю перевагу redux-у. З ним зручніше працювати, можна reducer-и розділити по різних файлах, state менеджмент в redux організований набагато краще і естетичніше ніж в mobX. А сам mobX я рекомендую використовувати не сайтах які ви не плануєте оновляти, тобто mobX підійде для невеликих проєктів.</p>"
+      }
+   ]
+}
