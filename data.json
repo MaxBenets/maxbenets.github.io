@@ -16,6 +16,7 @@
      {"id": 1, "type": "react","githubLink": "https://github.com/MaxBenets/React-Candy-Store", "imgSrc": "https://i.imgur.com/w405CW1.png", "name": "Candy House", "about": "Інтернет магазин", "url": "https://reactcandyhouse.netlify.app/"},
      {"id": 2, "type": "react","githubLink": "https://github.com/MaxBenets/React-Shortener", "imgSrc": "https://i.imgur.com/WxYW7Sp.png", "name": "React Shortener", "about": "Скорочувач посилань", "url": "https://reactshortener.netlify.app/"},
      {"id": 3, "type": "react","githubLink": "https://github.com/MaxBenets/React-translator", "imgSrc": "https://i.imgur.com/TZxm1bo.png", "name": "React Translator", "about": "Перекладач", "url": "https://reacttranslator.netlify.app/"},
-     {"id": 4, "type": "werstka","githubLink": "https://github.com/MaxBenets/capitaltravel", "imgSrc": "https://i.imgur.com/KDrbp2q.png", "name": "Capital Travel", "about": "Турестичне агенство", "url": "https://maxbenets.github.io/capitaltravel/"}
+     {"id": 4, "type": "react", "githubLink": "https://github.com/MaxBenets/AwesomeMusic/", "imgSrc": "https://i.imgur.com/7tQxoGo.png", "name": "Awesome Music", "about": "Сайт з музикою", "url": "https://reacttranslator.netlify.app/"},
+     {"id": 5, "type": "werstka","githubLink": "https://github.com/MaxBenets/capitaltravel", "imgSrc": "https://i.imgur.com/KDrbp2q.png", "name": "Capital Travel", "about": "Турестичне агенство", "url": "https://maxbenets.github.io/capitaltravel/"}
    ]
  }
